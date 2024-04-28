@@ -21,6 +21,7 @@ return {
           },
           hover = {
             enabled = false,
+            silent = true,
           },
         },
       }

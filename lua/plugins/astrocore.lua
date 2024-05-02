@@ -44,10 +44,10 @@ return {
       n = {
         -- second key is the lefthand side of the map
         n = {
-          "nzzzv",
+          "nzzzszH",
         },
         N = {
-          "Nzzzv",
+          "NzzzszH",
         },
 
         -- navigate buffer tabs with `H` and `L`

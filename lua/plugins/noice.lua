@@ -13,5 +13,18 @@ return {
       --   If not available, we use `mini` as the fallback
       "rcarriga/nvim-notify",
     },
+    config = function()
+      require("noice").setup {
+        lsp = {
+          signature = {
+            enabled = false,
+          },
+          hover = {
+            enabled = false,
+            silent = true,
+          },
+        },
+      }
+    end,
   },
 }

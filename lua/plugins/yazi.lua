@@ -12,6 +12,7 @@
 --   },
 -- }
 
+---@type LazySpec
 return {
   {
     "mikavilpas/yazi.nvim",
@@ -33,5 +34,7 @@ return {
       -- if you want to open yazi instead of netrw, see below for more info
       open_for_directories = false,
     },
+    config = function()
+    end,
   },
 }
